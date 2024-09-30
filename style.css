@@ -111,17 +111,15 @@ button:hover {
     
 }
 
-/* Responsive Design */
-
 @media (max-width: 768px) {
     .resume-container {
         flex-direction: column;
-        width: 100%;
+        width: 100%; /* Ensures full-width on smaller screens */
         margin: 10px auto;
     }
 
     .left-section, .right-section {
-        width: 100%;
+        width: 100%; /* Both sections take full width on mobile */
         border-right: none;
         border-bottom: 5px solid blue;
     }
@@ -134,6 +132,12 @@ button:hover {
         font-size: 1rem;
         margin: 5px 0; /* Adjust to prevent overflow */
         box-sizing: border-box; /* Include padding in box size */
+    }
+
+    .right-section {
+        padding: 10px; /* Reduced padding for better alignment */
+        box-sizing: border-box; /* Make sure padding doesn't cause overflow */
+        width: 100%; /* Ensure it takes full width */
     }
 
     .profile-picture {
@@ -169,21 +173,14 @@ button:hover {
     }
 
     .right-section {
-        padding: 3px
-
-    
-        
-    
+        padding: 5px; /* Reduced padding on smaller screens */
+        width: 100%; /* Ensure full width for right section */
+    }
 
     button {
         width: 100%;
     }
 }
-
-
-
-
-
 
 
 
