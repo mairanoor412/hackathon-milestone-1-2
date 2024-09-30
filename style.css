@@ -168,10 +168,9 @@ button:hover {
         margin: 5px 0; /* Smaller margins for mobile */
     }
 
-    .right-section {
-        padding: 6px; /* Reduce padding for smaller screens */
+    
         
-    }
+    
 
     button {
         width: 100%;
