@@ -170,6 +170,7 @@ button:hover {
 
     .right-section {
         padding: 10px; /* Reduce padding for smaller screens */
+        width: 100%;
     }
 
     button {
