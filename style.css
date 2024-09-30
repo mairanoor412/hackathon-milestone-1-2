@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family:   "Urbanist", sans-serif;
-    padding: 150px;
+    padding: 50px;
     margin: 0;
     box-sizing: border-box;
     background-color: #fff;
@@ -112,10 +116,13 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
     .resume-container {
         flex-direction: column;
         width: 100%; /* Ensures full-width on smaller screens */
-        margin: 10px auto;
+        margin: 0 auto;
     }
 
     .left-section, .right-section {
