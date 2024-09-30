@@ -116,6 +116,7 @@ button:hover {
     .resume-container {
         flex-direction: column;
         width: 100%;
+        margin: 10px auto;
     }
 
     .left-section, .right-section {
@@ -130,6 +131,8 @@ button:hover {
 
     h3 {
         font-size: 1rem;
+        margin: 5px 0; /* Adjust to prevent overflow */
+        box-sizing: border-box; /* Include padding in box size */
     }
 
     .profile-picture {
@@ -151,6 +154,8 @@ button:hover {
 
     .profile-picture {
         width: 60%;
+        height: auto;
+        margin: 0 auto 20px;
     }
 
     h1 {
@@ -159,6 +164,11 @@ button:hover {
 
     h3 {
         font-size: 0.9rem;
+        margin: 5px 0; /* Smaller margins for mobile */
+    }
+
+    .right-section {
+        padding: 10px; /* Reduce padding for smaller screens */
     }
 
     button {
