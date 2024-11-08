@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:   "Urbanist", sans-serif;
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+    overflow-x: hidden
+
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+}
+
+/* left Section */
+.left-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-right: 5px solid blue;
+    
+
+}
+
+.profile-picture {
+    width: 250px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 900;
+    
+
+}
+
+h3 {
+    font-size: 20px;
+    padding: 2%;
+    margin: 2px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 5% ;
+    margin-bottom: 5%;
+    background: linear-gradient(rgb(40, 40, 221), pink);
+}
+
+h3:hover {
+    color:rgb(5, 5, 170);
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    
+}
+
+ul {
+    list-style: full round;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 70%;
+}
+
+a:hover {
+    color:rgb(6, 6, 126);
+    font-weight: bold;
+}
+
+button {
+    background: linear-gradient(rgb(40, 40, 221), pink);
+    padding: 10px;
+    font-size:18px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 33%;
+    width:30%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+}
+button:hover {
+    color: rgb(9, 9, 116);
+    font-weight:900;
+    
+}
+
+
